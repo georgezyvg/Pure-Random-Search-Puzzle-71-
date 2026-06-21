@@ -14,7 +14,7 @@ def private_key_to_public_key(private_key):
     key = Key.from_int(private_key)
     return key.public_key.hex()
 
-def generate_random_keys(lower_bound, upper_bound, count=11805916207174113):
+def generate_random_keys(lower_bound, upper_bound, count=1000000):
     """Generate completely random private keys within the given range."""
     return [random.randint(lower_bound, upper_bound) for _ in range(count)]
 
