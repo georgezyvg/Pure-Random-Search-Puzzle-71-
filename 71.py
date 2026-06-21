@@ -23,7 +23,7 @@ def generate_and_compare_keys():
     folder_path = os.path.dirname(os.path.abspath(__file__))
     target_rmd160 = "f6f5431d25bbf7b12e8add9af5e3475c44a0a5b8"
     user_lower_bound = 1180591620717411303424
-    user_upper_bound = 2353518513036786330335
+    user_upper_bound = 2361183241434822606847
     
     print(Fore.CYAN + "Starting search for matching RIPEMD-160 hash..." + Style.RESET_ALL)
     iteration_count = 0
